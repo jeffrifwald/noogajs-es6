@@ -1,0 +1,22 @@
+{
+  "name": "noogajs-es6",
+  "version": "0.0.1",
+  "description": "NoogaJS ECMAScript 6 Talk",
+  "main": "index.js",
+  "scripts": {
+    "start": "traceur src/*.js --experimental --out build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmcriffey/noogajs-es6"
+  },
+  "author": "Jeff McRiffey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmcriffey/noogajs-es6/issues"
+  },
+  "homepage": "https://github.com/jmcriffey/noogajs-es6",
+  "devDependencies": {
+    "traceur": "0.0.44"
+  }
+}
